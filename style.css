@@ -1,0 +1,107 @@
+body{
+    overflow: hidden;
+  }
+  .flex-container {
+      display: flex;
+       width: 100vmax;
+        height: 590px; 
+      background: #FFCD9E;
+    
+       }
+    .flex-container > div{
+      height: 250px;
+      width: 590px;
+    }
+    .main {
+      height: 100vh;
+      width: 938px;
+      font-family: verdana;
+      padding: 10px;
+      margin: 16px;
+      font-size: 16px;
+      text-align: left;
+    }
+    .main > h2 {
+      font-size: 23px;
+      margin-left: 120px;
+    }
+    .main > h5 {
+      text-align: left;
+      margin-left: 120px;
+    }
+    .main > p {
+      margin-left: 120px;
+    }
+    .content-area {
+      display: flex;
+      
+    }
+    .aside > img {
+      padding-left: 780px;
+      margin-top: -320px;
+    }
+    .footer {
+      width: 100vmax;
+      height: 320px;
+      padding: 4px;
+      margin: -27px;
+      margin-top:32px;
+      background: black;
+    } 
+    .ft1 { 
+      height: 227px;
+      width: 490px;
+      margin-left: -5px;
+      margin-top: -5px;
+      li{
+          text-align: left;
+          color: white;
+          font-size: small;
+          padding-left: 100px;
+          margin: 65px;
+          margin-bottom: -50px;
+      
+        }
+    } 
+  
+    .ft2 {
+      height: 228px;
+      width: 780px;
+      margin-left: 520px;
+      margin-top: -288px;
+      li{
+          text-align: right;
+          color: white;
+          margin: 1%;
+          padding-right: 220px;
+          height: 1%;
+          margin-top: 10px;
+      }
+    } 
+  .ft2 > img {
+      margin-right: -480px;
+      padding-left: 480px;
+       margin-top: 15px; 
+  }
+    .input-group-btn > button {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 9px;
+      width: 120px;
+      text-align: center;
+      font-size: 13px;
+      margin: 10px 2px;
+      cursor: pointer;
+    }
+      button {border-radius: 4px;}
+    .input-group > input{
+        background: white;
+        height: 20px;
+        width:200px;
+        font-size: 13px;
+        margin: 10px 2px;
+        padding: 5px;
+        cursor: pointer;
+        margin-left: 120px;
+     }
